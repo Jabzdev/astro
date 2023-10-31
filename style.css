@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
-    transition: 0.3s;
+    transition: ease-in-out 0.3s;
 }
 
 .navbar a:hover {
