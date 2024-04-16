@@ -1,6 +1,28 @@
 
 
-p {
-  font-size: 5rem;
-  color: limegreen;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  min-height: 400px;
+  margin-inline: auto;
+  border: 1px solid black;
+}
+
+.box {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
